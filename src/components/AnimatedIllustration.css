@@ -1,0 +1,23 @@
+.animated-illustration {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.animated-illustration .lottie-player {
+  filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.1));
+}
+
+.animated-illustration.hero-illus {
+  max-width: 420px;
+  flex-shrink: 0;
+}
+
+.animated-illustration.about-illus {
+  max-width: 380px;
+}
+
+.animated-illustration.contact-illus {
+  max-width: 320px;
+}
